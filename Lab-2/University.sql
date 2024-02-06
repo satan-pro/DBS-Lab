@@ -118,6 +118,6 @@ create table prereq
 	 prereq_id varchar(8),
 	 primary key(course_id, prereq_id),
 	 foreign key(course_id) references course
-		on delete cascade,
+		on delete cascade
 	);
 
