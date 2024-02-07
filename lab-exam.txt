@@ -1,0 +1,9 @@
+create table customer (cid varchar(10) not null,
+			customer_name varchar(30),
+			address varchar(60),
+			state varchar(5),
+			balance_due numeric(6, 2),
+			primary key(cid));
+
+create table order (ono varchar(10) not null,
+			order_date varchar(60)
